@@ -1,6 +1,0 @@
-public class Product {
-
-  public int add(int i, int j) {
-    return i + j;
-  }
-}
