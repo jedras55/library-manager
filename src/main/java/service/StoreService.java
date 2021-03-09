@@ -1,11 +1,11 @@
 package service;
 
+import model.Order;
 import model.OrderStatus;
-import model.Product;
 
 public class StoreService {
 
-  public Product[] filterProductsByOrderStatus(Product[] products, OrderStatus orderStatus) {
-    return new Product[] {};
+  public Order[] filterOrdersByOrderStatus(Order[] orders, OrderStatus orderStatus) {
+    return new Order[] {};
   }
 }

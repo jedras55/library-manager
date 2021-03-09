@@ -1,7 +1,11 @@
 package model;
 
 public class Order {
+  private Product[] products;
+  private OrderStatus orderStatus;
 
-    private Product[] products = new Product[10];
-    private OrderStatus orderStatus;
+  public Order(Product[] products, OrderStatus orderStatus) {
+    this.products = products;
+    this.orderStatus = orderStatus;
+  }
 }
