@@ -7,8 +7,6 @@ import org.junit.jupiter.api.Test;
 class ProductTest {
 
   @Test
-  public void main(String[] args) {}
-
   void shouldPrintProductInfo() {
     // given
     Product product = new Product("Mleko", 2);
