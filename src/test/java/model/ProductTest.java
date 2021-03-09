@@ -2,11 +2,13 @@ package model;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 class ProductTest {
 
   @Test
+  public void main(String[] args) {}
+
   void shouldPrintProductInfo() {
     // given
     Product product = new Product("Mleko", 2);
